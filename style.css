@@ -1,0 +1,402 @@
+body{
+overflow-x: hidden;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  width: 100vw;
+  height: auto;
+  background-color: #b8c2c4;
+}
+
+.heroPage {
+  height: 140vh;
+  width: 100vw;
+  
+  background-color: #b8c2c4;
+
+
+}
+.navigationBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  border-bottom: 1px solid rgb(183, 181, 181);
+  height: 12vh;
+}
+
+.button {
+  border: 1px solid rgb(106, 105, 105);
+  width: 150px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  box-shadow: 1px 5px  1px#131212;
+}
+.button a {
+  font-family: "Jost", sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+}
+.heading-text1 {
+  font-family: "Jost", sans-serif;
+  text-transform: uppercase;
+  font-size: 130px;
+  padding: 10px 30px;
+}
+
+.heading-text2 {
+  font-family: "Jost", sans-serif;
+  text-transform: uppercase;
+  font-size: 130px;
+  padding: 0px 13%;
+  font-weight: 900;
+  line-height: 40px;
+}
+.heroimage img {
+  filter: grayscale(100%);
+  width: 70vw;
+  height: 25vh;
+  object-fit: cover;
+  border: 4px solid rgb(4, 4, 4);
+}
+.heroimage {
+  border: 2px solid rgb(12, 12, 12);
+  width: 70vw;
+  height: 25vh;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 170px;
+  margin-top: 80px;
+  transform: translateX(-200%);
+}.heroText{
+  transform: translateY(-200%);
+}
+.heading-text2{
+  transform: translateY(-200%);
+}
+.heading-text2{
+  transform: translateY(-200%);
+}
+.heading-Design {
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: right;
+  margin-right: 4%;
+  font-family: "Jost", sans-serif;
+  opacity: 0;
+}
+.heading-Think {
+  font-size: 50px;
+  font-family: "Jost", sans-serif;
+  text-transform: uppercase;
+  text-align: right;
+  margin-right: 5%;
+  opacity: 0;
+}
+.heroText-Design-box {
+  line-height: 60px;
+  width: 100%;
+}
+.boxes {
+  width: 100%;
+  height: 1vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 1px;
+
+
+
+}
+.boxes > .h1 {
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  opacity: 0;
+}
+.boxes > .h2 {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 2;
+  opacity: 0;
+}
+.address {
+  justify-content: space-between;
+  display: flex;
+  padding: 10px 100px;
+  color: #434343;
+}
+.addressContiner {
+  width: 100%;
+}
+.tosocalmedia {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: -30px;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "Jost", sans-serif;
+  transition: ease-in;
+  width: 100%;
+  opacity: 0;
+}
+
+.githubtext:hover {
+  text-decoration: underline;
+  transition: ease-in;
+
+}
+.Dribbbletext:hover {
+  text-decoration: underline;
+  transition: ease-in;
+}
+.Linkedintext:hover {
+  text-decoration: underline;
+  transition: ease-in;
+}
+.page2{
+  width: 100vw;
+  height: 100vh;
+  background-color: #b8c2c4;
+  display: flex;
+
+}
+
+.page2{
+overflow: hidden;
+  justify-content: space-evenly;
+}
+.aboutText{
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+.paragraphtext{
+  padding: 20px 30px;
+}
+.rigth{
+  margin-top: 64px;
+  width: 65%;
+  height: 100vh;
+
+}
+.leftboxe{
+  width: 100%;
+  height: 10vh;
+align-items: center;
+margin-top: 10px;
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid #000;
+font-family: "Stage Grotesk", Sans-serif;
+font-size: 14px;
+text-transform: capitalize;
+
+}
+.leftboxe p{
+  padding: 0px 20px;
+}
+.aboutText h1{
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 64px;
+font-family: "Stage Grotesk", Sans-serif; 
+
+}
+.aboutText p{
+  font-size: 14px;
+  text-transform: capitalize;
+font-family: "Stage Grotesk", Sans-serif; 
+width: 100%;
+}
+.headParagraph{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.project_Page{
+
+  width: 100vw;
+  height: 100vh;
+}
+.imagecontainer{
+  display: flex;
+  width: 100vw;
+
+}
+.img{
+
+  border: 1px solid;
+}
+.imagecontainer img{
+  padding: 10px;
+  height: 440px;
+  object-fit: cover;
+  object-position: center center;
+}
+.contactPage{
+  width: 100vw;
+  height: 100vh;
+  background-color: #b8c2c4;
+ 
+}
+.text p{
+  text-transform: capitalize;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 64px;
+font-family: "Stage Grotesk", Sans-serif; 
+text-transform: uppercase;
+
+}
+.contactParagraphText p{
+  width: auto;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Stage Grotesk", Sans-serif; 
+}
+.contactParagraphText{
+  padding: 10%;
+}
+.headingText h1{
+  text-transform: capitalize;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 64px;
+font-family: "Stage Grotesk", Sans-serif; 
+text-transform: uppercase;
+}
+.contactPage{
+  display: flex;
+
+}
+.headingText{
+  width: 50%;
+}
+
+.contactForms{
+  width: 50%;
+  background-color: #b8c2c4;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 20px;
+
+
+}
+.contactForms #Name{
+  width: 100%;
+
+  height: 50px;
+  border: none;
+  background-color: #b8c2c4;
+  outline: none;
+  padding: 20px;
+  font-size: 18px;
+  font-family: "Stage Grotesk", Sans-serif; 
+  border-bottom: 2px solid #181818;
+background-color: #a2aaac;
+
+}
+.contactForms #Email{
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: #a2aaac;
+  outline: none;
+  padding: 20px;
+  font-size: 18px;
+  font-family: "Stage Grotesk", Sans-serif; 
+  border-bottom: 2px solid #181818;
+
+}
+.contactForms #message{
+  width: 100%;
+  height: 150px;
+  width: 100%;
+  border: none;
+  background-color: #a2aaac;
+  outline: none;
+  padding: 20px;
+  font-size: 18px;
+  font-family: "Stage Grotesk", Sans-serif; 
+border-bottom: 2px solid #181818;
+
+}
+.contactForms h1{
+  font-family: "Stage Grotesk", Sans-serif; 
+  text-transform: uppercase;
+  font-size: 50px;
+
+}
+#btn{
+  margin-top: 10px;
+  width: 40%;
+  height: 50px;
+  color: #292929;
+  background-color: #b8c2c4;
+  box-shadow: 1px 5px  1px#131212;
+  border: none;
+  border-radius: 4px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin-right: 21rem;
+}
+.footer{
+  display: flex;
+  justify-content: flex-start;
+align-items: flex-start; 
+gap: 300px;
+  align-items: center;
+  padding-left: 30px;
+  height: 10vh;
+  width: 100vw;
+  background-color: #9fa3a4;  
+  border-top: 1px solid #999999;
+}
+.socialContact{
+
+  width:30%;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-family: "Stage Grotesk", Sans-serif; 
+  font-size: 13px;
+
+  
+}
+.copyrigt{
+  font-size: 12px;
+  font-family: "Stage Grotesk", Sans-serif;
+}
+.innerdiv{
+
+
+position: absolute;
+  background-color: red;
+  z-index: 999;
+  width: 1150px;
+  height: 1100px;
+}
